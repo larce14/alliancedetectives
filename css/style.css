@@ -1,0 +1,291 @@
+html,
+body{
+	background-color: #DCE0E3;
+	margin:0;
+	padding: 0;
+}
+
+.jumbotron {
+	background-color: #1596C7;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.allianceLogo {
+	float: left;
+	padding-left: 30px;
+	padding-bottom: 15px;
+}
+
+.offers {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+h4.call2action {
+	text-align: center;
+	margin-top: 50%;
+	margin-bottom: 50%;
+}
+
+button.btn {
+  -moz-border-radius: 25px;
+  -moz-box-shadow: #838bf6 0px 0px 10px;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-border-radius: 25px;
+  -webkit-box-shadow: #6E7849 0 0 10px;
+  -webkit-transition: all 0.5s ease;
+  background-color: #1c1cd4;
+  background-image: -moz-linear-gradient(357deg, #78badd, #1c1cd4);
+  background-image: -ms-linear-gradient(357deg, #78badd, #1c1cd4);
+  background-image: -o-linear-gradient(357deg, #78badd, #1c1cd4);
+  background-image: -webkit-linear-gradient(357deg, #78badd, #1c1cd4);
+  background-image: linear-gradient(357deg, #78badd, #1c1cd4);
+  border-radius: 25px;
+  border: 2px solid #000000;
+  box-shadow: #838bf6 0px 0px 10px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1em;
+  margin: auto;
+  padding: 20px;
+  text-decoration: none;
+  text-shadow: #000000 5px 5px 15px;
+  transition: all 0.5s ease;
+}
+.button:hover {
+  padding: 25px;
+}
+
+.gun,
+.chopper,
+.skull {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: 150px;
+	border-radius: 40%;
+}
+
+.sect1 {
+	margin-top: 50px;
+	border-top: 2px solid #1596C7; 
+}
+
+.info {
+	padding-top: 25px;
+}
+
+div.final {
+	color: #fff;
+	background-color: #1596C7;
+	height: 25%
+	width: 100%;
+}
+
+.regs {
+	color: #fff;
+}
+
+.final {
+	padding-bottom: 30px;
+}
+
+h2,
+h3 {
+	color: #054E7A;
+	text-shadow:2px 2px 3px #666;
+}
+	.fa-stack{
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+/* ===================
+	       Footer
+====================== */
+
+
+.fooot-logo {
+	height: 80px;
+	width: 80px;
+}
+
+.footer-distributed{
+	background-color: #1596C7;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ffffff;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #f7f7f7;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
